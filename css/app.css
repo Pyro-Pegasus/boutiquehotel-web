@@ -1,0 +1,309 @@
+/* CODE FOR ACCESSIBLE SKIP LINK – DO NOT DELETE */
+
+.skip-link {
+  position: absolute;
+  padding: .5rem 1rem;
+  color: #fff;
+  background-color: #212121;
+  text-decoration: none;
+  z-index: 10;
+  transform: translateY(-100%);
+  transition: transform .3s ease-out;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+  outline: #fff solid .125rem;
+}
+
+@media print {
+  .skip-link {
+    display: none;
+  }
+}
+
+
+
+header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+z-index:99999;
+ background-color:#65504B;
+color:#F2C6A0;
+font-weight: "600"
+padding-top:3rem;
+padding-bottom:.5rem;
+}
+
+header .title-bar{
+ background-color:#65504B;
+}
+
+header h1{
+ text-align:center;
+background-color: #8F7670;
+}
+
+header a{
+  background-color:#65504B;
+  font-family: 'Comfortaa', cursive;
+  color:#F2C6A0;
+}
+
+main{
+background-color: #FFE7D3;
+font-family: 'Comfortaa', cursive;
+}
+
+/*HERO*/
+.hero{
+margin-top:9rem;
+margin-bottom:-1rem;
+background-color: #FFE7D3;
+}
+
+.hero figcaption{
+  font-size:1.25rem;
+  font-weight:400;
+  margin-bottom:2rem;
+  background-color:rgba(166,57,33,.75);
+}
+
+/*FEATURES SECTION*/
+.features{
+background-color: #FFE7D3;
+}
+
+.features .card{
+background-color: #FFE7D3;
+padding-top:2rem;
+}
+
+.features p{
+  font-weight:400;
+  font-size:1.5rem;
+}
+
+.button{
+  filter:drop-shadow(1px 1px 3px #65504B);
+}
+.card .button{
+  background-color: #F25260;
+  color:#FFE7D3;
+  font-size:1.5rem;
+  font-weight: 700;
+}
+
+.bring-your-cat{
+
+}
+
+.rent-a-cat{
+
+}
+
+.cat-cafe{
+
+}
+
+.cat-cafe span{
+text-transform:uppercase;
+}
+
+.pool{
+
+}
+
+/*COVID RULES SECTION*/
+.covid-guidelines{
+background-color: #FFE7D3;
+border-style:solid;
+border-color:#A63921;
+margin-left:3em;
+margin-right:3rem;
+margin-top:3rem;
+margin-bottom:4rem;
+color:#A63921;
+padding-left:2rem;
+padding-right:3rem;
+padding-top:1rem;
+}
+
+.covid-guidelines h2{
+font-weight:500;
+font-size:4rem;
+font-family: 'Comfortaa', cursive;
+}
+
+.covid-guidelines li{
+  font-weight:400;
+  font-size:1.5rem;
+  list-style-image: url(../img/covid-paw-bullet2.png); 
+}
+
+/*BOOKING SECTION*/
+.book-now{
+background-color: #F25260;
+}
+
+.book-now h2{
+font-weight:500;
+font-size:4rem;
+color:#F2C6A0;
+font-family: 'Comfortaa', cursive;
+background-color: #F25260;
+margin-bottom:-1rem;
+padding-bottom:2rem;
+}
+
+.book-now .table {
+height: 110%;
+}
+
+.book-now tr{
+  background-color: #F25260;
+  padding: 2rem;
+  border-top: 1px solid #BDBDBD;
+}
+
+@media screen and (min-width: 40em){
+.book-now {
+padding: 4rem;
+}
+}
+
+.book-now .table th {
+font-family: 'Comfortaa', cursive;
+color:#ffffff;
+text-transform: uppercase;
+}
+
+.book-now label{
+  font-family: 'Comfortaa', cursive;
+color:#ffffff;
+text-transform: uppercase;
+font-weight:600;
+}
+
+.promo label{
+  margin-bottom:-1rem;
+}
+
+.book-now .button{
+  background-color:#F2AA6B;
+  font-family: 'Comfortaa', cursive;
+  color:#FFE7D3;
+  font-size:1.5rem;
+  font-weight: 700;
+}
+
+#confirmation-overlay{
+  background-color:#65504B;
+  font-family: 'Comfortaa', cursive;
+  color:#F2AA6B;
+  border-color:#FFE7D3;
+  padding-top:2rem;
+  margin-top:20rem;
+  padding-bottom:-15rem;
+}
+
+#confirmation-overlay h1{
+  font-family: 'Comfortaa', cursive;
+  font-size:3rem;
+  font-weight: 700;
+   text-align:center;
+    
+}
+
+#confirmation-overlay h2{
+  font-family: 'Comfortaa', cursive;
+  font-size:2rem;
+  text-align:center;
+  font-weight:400;
+  padding-bottom:-30rem;
+}
+
+/*THE MAP*/
+.map{
+background-color:#65504B;
+margin-top:-1rem;
+margin-bottom:-1rem;
+padding-bottom:5rem;
+}
+
+.map h2{
+font-weight:500;
+font-size:4rem;
+color:#F2C6A0;
+font-family: 'Comfortaa', cursive;
+margin-bottom:1rem;
+padding-top:3rem;
+padding-bottom:1rem;
+padding-left:2rem;
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+    margin-right:2rem;
+    margin-left:2rem;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+/*FOOTER*/
+footer{
+margin-top:-1rem;
+background-color: #8F7670;
+font-family: 'Comfortaa', cursive;
+color:#FFE7D3;
+padding-top:2rem;
+}
+
+h3{
+  font-size:3.75rem;
+  font-family: 'Comfortaa', cursive;
+  text-align:center;
+  font-weight: 700;
+}
+
+h4{
+  font-family: 'Comfortaa', cursive;
+  font-size:1.5rem;
+  font-weight: 700;
+}
+
+footer .contact{
+margin-left:2rem;
+}
+
+footer a{
+  color:#FFE7D3;
+  font-size:1rem;
+  font-weight:400;
+}
+
+footer address{
+  font-size:1rem;
+  font-weight:400;
+}
+
+footer li{
+  font-size:1rem;
+  font-weight:400;
+}
+
+.social-media i{
+font-size:2rem;
+margin-right:1rem;
+}

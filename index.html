@@ -1,0 +1,298 @@
+<!doctype html>
+
+<html class="no-js" lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDES1060 Project 2</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/foundation-datepicker.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- place your code starting here -->
+
+<header>
+  <div class="grid container">
+
+    <nav>
+      <h1><img src="img/header-logo2.png" alt="El Gato Hotel"></h1>
+      <div class= "title-bar" data-responsive-toggle="menu" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle="menu"><i class="fas fa-bars"></i></button>
+        <div class="title-bar-title">Menu</div>
+      </div>
+
+        <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown" id="menu">
+          <li><a href="#features">Featured</a></li>
+            <li><a href="#covid-guidelines">Covid Guidelines</a></li>
+            <li><a href="#map">Map</a></li>
+           <li><a href="#book-now">Book Now</a></li>
+        </ul>
+     </nav>
+  </div>
+</header>
+
+
+<main>
+
+  <section class="hero" id="hero">
+    <div class="orbit" role="region" aria-label="Hotel Hero Images" data-orbit>
+  <div class="orbit-wrapper">
+    <div class="orbit-controls">
+      <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+      <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+    </div>
+    <ul class="orbit-container">
+      <li class="is-active orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="img/hero-blackcat.jpg" alt="Black cat in a cat tree">
+          <figcaption class="orbit-caption">Every room has a cat tree!</figcaption>
+        </figure>
+      </li>
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="img/hero-outside.jpg" alt="Outside view of the hotel">
+      </li>
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="img/hero-lobby.jpg" alt="Chill lobby">
+      </li>
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="img/hero-cafe.jpg" alt="Black cat next to cafenated beverages">
+          <figcaption class="orbit-caption">Relax in our cat cafe!</figcaption>
+        </figure>
+      </li>
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="img/hero-purrfect.jpg" alt="Precious kitty">
+      </li>
+    </ul>
+  </div>
+  <nav class="orbit-bullets">
+    <button class="is-active" data-slide="0">
+      <span class="show-for-sr">First slide details.</span>
+      <span class="show-for-sr" data-slide-active-label>Current Slide</span>
+    </button>
+    <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+    <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+    <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+    <button data-slide="4"><span class="show-for-sr">Fourth slide details.</span></button>
+  </nav>
+</div>
+  </section>
+
+  <section class="features" id="features">
+<div class="grid-container">
+  <div class="grid-x align-center grid-margin-x small-up-1 medium-up-2">
+  
+    
+    <div class="cell large-6">
+      <section class="bring-your-cat" id="bring-your-cat">
+      <div class="card">  
+        <img src="img/feature1-card.jpg" alt="An image of a lovely hotel room with a cat on a chair">
+        <div class="card-section">
+          <p>We are extremely cat friendly! You can bring your own cat as a guest with you with no extra charge.</p>
+          <p>Our rooms are equipped with cat food, food bowls, litter boxes and toys to properly care for your felines needs. Room service comes in to clean the litter box upon request.</p>
+          <div class="button">Learn More</div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+<div class="cell large-6">
+    <section class="rent-a-cat" id="rent-a-cat">
+      <div class="card">  
+        <img src="img/feature2-card.jpg" alt="An image of a cat climbing a cactus shaped cat tree">
+        <div class="card-section">
+          <p>If you don’t have a cat, no problem! You can rent one of our cats to live with you in your room for $5 per night per cat. You may rent up to 2 cats at once. If you love them so much that you can’t part with them, the cats are adoptable when you check out.</p>
+          <div class="button">Learn More</div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+<div class="cell large-6">
+    <section class="cat-cafe" id="cat-cafe">
+      <div class="card">  
+        <img src="img/feature3-card.jpg" alt="An image of cat chilling in a cat cafe, being pet by their humans slave um I mean hotel guest">
+        <div class="card-section">
+          <p>Do we have a cat cafe? <span>Of course we have a cat cafe!</span> Who doesn’t want to eat breakfast and drink coffee while surrounded by feline friends?</p>
+          <div class="button">Learn More</div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+<div class="cell large-6">
+    <section class="pool" id="pool">
+       <div class="card">  
+        <img src="img/feature4-card.jpg" alt="An image of gorgeous pool">
+        <div class="card-section">
+          <p>What is a Florida hotel without a luxurious outdoor pool? Feel free to take a dip and enjoy the sun!</p>
+          <div class="button">Learn More</div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+  </section>
+
+  <section class="covid-guidelines" id="covid-guidelines">
+    <div class="grid-container">
+       <h2>COVID Guidelines</h2>
+      <div class="grid-x align-left">
+        <ul>
+          <div class="cell small-6"><li><p>Human guests are required to wear a mask in the lobby and all common areas except for the Anna’s Cat Cafe and the pool.
+          </p></li></div>
+          <div class="cell small-6"><li><p>Employees are required to wear a mask at all times.</p></li></div>
+          <div class="cell small-6"><li><p>No more than 10 people are to be in the pool area at a time. Please remain 6 feet away from non-family members.</p></li></div>
+          <div class="cell small-6"><li><p>Cats do not have to wear masks because COVID-19 is not cool enough to infect them.</p></li></div>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="book-now" id="book-now">
+    <h2>Book Now</h2>
+<table class="table">
+      <thead>
+        <tr class="grid-x small-up-1 medium-up-2">
+          <th class="cell small-6">Check in:
+            <input type="text" class="span2" value="" id="dpd1">
+          </th>
+          <th class="cell small-6">Check out:
+            <input type="text" class="span2" value="" id="dpd2">
+
+          <label for="adults">Human Adults:</label>
+             <input type="number" id="adults" name="adults"
+              min="1" max="4">
+
+          <label for="children">Human Children:</label>
+             <input type="number" id="children" name="adults"
+              min="0" max="6">
+
+          <label for="cat-guests">Cat Guests:</label>
+             <input type="number" id="cat-guests" name="adults"
+              min="0" max="2">
+
+<form class="promo">
+  <label for="promo">Promo Code</label><br>
+  <input type="text" id="promo">
+</form>
+          </th>
+        </tr>
+        <tr class="grid-x">
+          <th class="cell">
+            <input type="submit" class="submit button radius small" value="Check Availability" data-open="confirmation-overlay">
+          </th>
+        </tr>        
+      </thead>
+    </table>
+  </section>
+
+ <div id="confirmation-overlay" class="reveal" data-reveal>
+      <div class="grid-x">
+        <div class="cell large-7">
+          <div class="overlay">
+            <h1>Success</h1>
+            <h2>You've booked a room from <span class="dpd1"></span> to <span class="dpd2"></span>.</h2>
+          </div>
+        </div>
+      </div>
+      <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span></button>
+    </div>
+
+  <section class="map" id="map">
+    <h2>Map</h2>
+    <div class="map-responsive"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2611.7765681153073!2d-80.07428611516909!3d26.391857895406954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d8e1b81c63c03b%3A0x45890f3a47839c52!2s4700%20Sanctuary%20Ln%2C%20Boca%20Raton%2C%20FL%2033431!5e0!3m2!1sen!2sus!4v1636474542612!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="grid-container">
+      <h3>El Gato Hotel</h3>
+      <div class="grid-x align-left">
+
+        <div class="cell small-4"><section class=address><h4>Address</h4><br>
+          <address>123 Totally Real St.<br>Real City, FL 54321</address>
+        </section>
+        </div>
+        <div class="cell small-4"><section class="contact"><h4>Contact</h4><br>
+          <p><a href="#">realemail@elgato.com</a><br><a href="tel:1234567890">(123)456-7890</a></p>
+        </section>
+        </div>
+        <div class="cell small-4">
+          <section class=social-media>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+          </section>
+        </div>
+
+        <section class="image-credits">
+          <h4>Image Credits (Unsplash)</h4>
+          <ul>
+            <li>Madalyn Cox</li>
+            <li>Juan Rojas</li>
+            <li>Juan Burgos</li>
+            <li>Eric Han</li>
+            <li>Chastity Cortijo</li>
+            <li>Guilherme Oliveira</li>
+            <li>Chewy</li>
+            <li>Camden & Hailey George</li>
+            <li>atman studios</li>
+        </ul>
+      </section>
+    </div>
+</footer>
+
+    <!--
+
+    - datepicker widget (be careful when editing)
+    - displays two fields in two columns
+    - place this inside one of your page sections
+
+    -->
+
+    
+
+    <!--
+
+    - overlay window with spans used to show data from datepicker
+    - edit the grid however you would like to fit your layout, but
+    - do not delete the <span class="dpd1"></span> and <span class="dpd2"></span> tags, these are used to show the user the dates they selected
+    - this section can go anywhere in your code, but to keep things organized, place it after the section where you have your date picker form
+
+    -->
+
+   
+
+    <!--
+
+    - do not delete anything below this line
+    - do not place any code below this line
+
+    -->
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/foundation-datepicker.min.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+
+</html>
